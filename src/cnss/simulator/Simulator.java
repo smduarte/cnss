@@ -525,7 +525,7 @@ public class Simulator {
 	 */
 	private void check_completed() {
 		if (events.size() > 0) {
-			System.out.println("\nwarning - " + events.size() + " events not run; stoped too early?");
+			System.out.println("\nwarning - " + events.size() + " events not run; stopped too early?");
 		}
 	}
 
